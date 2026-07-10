@@ -1,10 +1,14 @@
 # 🚀 Playwright Automation Framework
 
-## Overview
+## 📖 Overview
 
-This project is built using **Playwright with JavaScript** for end-to-end web UI automation testing.
+This project is an end-to-end UI Automation Framework developed using **Playwright with JavaScript** for testing web applications.
 
-## Technologies Used
+It includes automation scripts for OpenCart and homepage validation with Playwright best practices.
+
+---
+
+## 🛠 Tech Stack
 
 - Playwright
 - JavaScript
@@ -12,38 +16,66 @@ This project is built using **Playwright with JavaScript** for end-to-end web UI
 - Git
 - GitHub
 
-## Features
+---
+
+## ✨ Features
 
 - UI Automation Testing
-- Assertions
+- Playwright Assertions
 - Built-in Locators
 - Multiple Element Handling
 - OpenCart Automation
-- Homepage Testing
+- Homepage Validation
+- Cross Browser Testing
 
-## Project Structure
+---
 
-```
+## 📁 Project Structure
+
+```text
 homepage-tests/
 tests/
-package.json
 playwright.config.js
+package.json
 ```
 
-## Installation
+---
+
+## ⚙️ Installation
 
 ```bash
 npm install
 ```
 
-## Run Tests
+---
+
+## ▶️ Execute Tests
 
 ```bash
 npx playwright test
 ```
 
-## Author
+---
+
+## 📌 Author
 
 **Reshma Perween**
 
-QA Automation Engineer
+QA Engineer | Manual & Automation Testing
+
+📍 Dubai, UAE
+
+📧 reshmaperween0250@gmail.com
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/reshma-perween
+
+🔗 GitHub:
+https://github.com/reshmaperween-qa
+---
+
+## 📸 Playwright Test Report
+
+Below is the Playwright HTML Report generated after executing the test suite.
+
+![Playwright Report](screenshots/openCart.png)
