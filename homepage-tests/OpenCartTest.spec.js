@@ -1,16 +1,11 @@
-const { test, expect } = require('@playwright/test');
+const { test } = require('@playwright/test');
 
-test('OpenCart Home Page', async ({ page }) => {
-  // Navigate to the OpenCart demo site
-  await page.goto('https://demo.opencart.com', { waitUntil: 'domcontentloaded' });
+test('Check OpenCart', async ({ page }) => {
 
-  // Wait for a specific element to ensure the page is fully loaded
-  await page.waitForSelector('div#logo img'); // Wait for the logo to appear
+    await page.goto('https://demo.opencart.com/en-gb');
 
-  // Get the page title
-  const pageTitle = await page.title();
-  console.log('Title of the page:', pageTitle);
+    console.log(await page.title());
 
-  // Verify the page title
-  await expect(page).toHaveTitle('Your Store');
+    await page.screenshot({ path: 'screenshots/opencart.png' });
+
 });

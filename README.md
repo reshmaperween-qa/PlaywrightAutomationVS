@@ -79,3 +79,4 @@ https://github.com/reshmaperween-qa
 Below is the Playwright HTML Report generated after executing the test suite.
 
 ![Playwright Report](screenshots/playwright-html-report.png)
+![Playwright Report](screenshots/playwright-html-report-Opencart-pass.png)
